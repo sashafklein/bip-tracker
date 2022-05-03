@@ -27,16 +27,9 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Documenting Bitcoin Improvement Proposals"
-    >
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+    <Layout description="Documenting Bitcoin Improvement Proposals">
+      {null}
     </Layout>
   );
 }

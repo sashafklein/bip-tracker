@@ -64,13 +64,13 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Docs",
                 to: "/docs/intro",
               },
             ],
           },
           {
-            title: "Resources",
+            title: "BIP Repo",
             items: [
               {
                 label: "BIPs",
