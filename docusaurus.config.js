@@ -25,11 +25,26 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/sashafklein/bip-tracker",
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [
+          {
+            to: "/intro",
+            from: ["/"],
+          },
+        ],
+      },
     ],
   ],
 
@@ -41,7 +56,7 @@ const config = {
         logo: {
           alt: "Bitcoin Logo",
           src: "img/bitcoin.png",
-          href: "/docs/intro",
+          href: "/intro",
         },
         items: [
           {
@@ -61,25 +76,14 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
-            items: [
-              {
-                label: "Docs",
-                to: "/docs/intro",
-              },
-            ],
+            label: "Docs",
+            to: "/intro",
           },
           {
-            title: "BIP Repo",
-            items: [
-              {
-                label: "BIPs",
-                href: "https://github.com/bitcoin/bips",
-              },
-            ],
+            label: "BIP Repo",
+            href: "https://github.com/bitcoin/bips",
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BIP Tracker, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
