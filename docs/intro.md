@@ -12,7 +12,7 @@ Read more about the motivation behind this idea.
 
 This project is build using [Docosaurus](https://docusaurus.io/), and intended to be easy to extend. Each BIP has its own directory under `docs/`. Archived BIPs (either merged or withdrawn by the authors) can be moved into the `docs/Archived` directory.
 
-Each BIP directory is expected to house a number of files. These files are briefly described below, but more details can be found in the [Demo BIP directory](/docs/Demo/) or [on the site](https://biptracker.netlify.app/docs/demo/Intro):
+Each BIP directory is expected to house a number of files. These files are briefly described below, but more details can be found in the [Demo BIP directory](https://www.github.com/sashafklein/bip-tracker/tree/master/docs/Demo/) or [on the site](https://biptracker.netlify.app/docs/Demo/Intro):
 
 - `1. Intro.md` - A quick (eg 1 or two sentence) introduction to the BIP, and its current status.
 - `2. Description.md` - A full layperson introduction to the BIP, pitched to the level of someone who understands Bitcoin but is non-technical.
@@ -28,7 +28,7 @@ Each BIP directory is expected to house a number of files. These files are brief
 - `12. Activation.md` - A proposal for how the BIP might be activated, on what timeline, and why.
 - `13. Post-Mortem.md` - For BIPs which were merged, rejected, or withdrawn, a discussion of what worked and didn't work in the BIP process, including any salient lessons learned.
 
-More documentation on each of these can be found in the [demo BIP directory](/docs/BIPs/Demo-Bip/) (also visible [on the site](https://biptracker.netlify.app/docs/demo)).
+More documentation on each of these can be found in the [demo BIP directory](https://www.github.com/sashafklein/bip-tracker/tree/master/docs/Demo/) (also visible [on the site](https://biptracker.netlify.app/docs/docs/Demo/Intro)).
 
 If starting a new BIP repo, it's easiest to just duplicate the `Demo` repo and put it in the appropriate directory (`Current` or `Past`).
 
