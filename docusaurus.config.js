@@ -9,7 +9,7 @@ const config = {
   title: "BIP Tracker",
   tagline: "Documenting Bitcoin Improvement Proposals",
   url: "https://biptracker.netlify.com",
-  baseUrl: "/docs/Intro",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -37,10 +37,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "BIP Tracker",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Bitcoin Logo",
+          src: "img/bitcoin.png",
+          href: "/docs/intro",
         },
         items: [
           {
