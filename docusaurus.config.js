@@ -9,12 +9,12 @@ const config = {
   title: "BIP Tracker",
   tagline: "Documenting Bitcoin Improvement Proposals",
   url: "https://biptracker.netlify.com",
-  baseUrl: "/",
+  baseUrl: "/docs/Intro",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "sashafklein", // Usually your GitHub org/user name.
+  projectName: "bip-tracker", // Usually your repo name.
 
   presets: [
     [
