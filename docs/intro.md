@@ -30,7 +30,7 @@ Each BIP directory is expected to house a number of files. These files are brief
 
 More documentation on each of these can be found in the [demo BIP directory](https://www.github.com/sashafklein/bip-tracker/tree/master/docs/Demo/) (also visible [on the site](/Demo/Intro)).
 
-If starting a new BIP repo, it's easiest to just duplicate the `Demo` repo and put it in the appropriate directory (`Current` or `Past`).
+If starting a new BIP repo, it's easiest to just duplicate the `Demo` directory.
 
 ### Multimedia
 
