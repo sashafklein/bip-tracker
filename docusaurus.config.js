@@ -26,25 +26,12 @@ const config = {
           // Please change this to your repo.
           editUrl: "https://github.com/sashafklein/bip-tracker",
           routeBasePath: "/",
+          breadcrumbs: false,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
-    ],
-  ],
-
-  plugins: [
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          {
-            to: "/intro",
-            from: ["/"],
-          },
-        ],
-      },
     ],
   ],
 
